@@ -28,7 +28,7 @@ export default function Home() {
           A driving test route map for VicRoad Ringwood test centre
         </p>
         <select
-          className="text-2xl font-bold text-center py-8 bg-black"
+          className="text-2xl font-bold text-center py-8"
           onChange={(e) =>
             setRoute(e.target.value === "1" ? waypoints1 : waypoints2)
           }
