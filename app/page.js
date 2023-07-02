@@ -1,6 +1,6 @@
 "use client";
 import MapWithDirections from "@/components/MapWithDirections";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 export default function Home() {
   const waypoints1 = [

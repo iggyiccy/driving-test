@@ -1,6 +1,8 @@
 import "./globals.css";
 import { Inter } from "next/font/google";
 
+global.XMLHttpRequest = require("xhr2");
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
